@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 section{
   text-align: center;
   background-color: rgba(104, 194, 235, 0.397);
@@ -15,9 +21,10 @@ section{
   margin: auto;
   border-radius: 8px;
   padding: 8px 8px;
+  margin-top: 20%;
 }
 
-button{
+button, .welcome-btn{
   background-color: #000;
   color: aqua;
   padding: 4px 8px;
@@ -33,6 +40,33 @@ div{
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 10px 0;
   flex-wrap: wrap;
+}
+
+.welcome-btn{
+  color: aliceblue;
+  background-color: rgb(72, 222, 222);
+  font-size: 20px;
+  margin-top: 20%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(220, 19, 53);
+  /* border-radius: 15px; */
+  width: 100%;
+  color: aliceblue;
+  padding-left: 5px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 10px;
+  color: aliceblue;
 }
