@@ -21,7 +21,6 @@ section{
   margin: auto;
   border-radius: 8px;
   padding: 8px 8px;
-  margin-top: 20%;
 }
 
 button, .welcome-btn{
@@ -35,38 +34,12 @@ button, .welcome-btn{
   cursor: pointer;
 }
 
-div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
 .welcome-btn{
   color: aliceblue;
   background-color: rgb(72, 222, 222);
   font-size: 20px;
-  margin-top: 20%;
+  margin: 40px auto;
+  display: block;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgb(220, 19, 53);
-  /* border-radius: 15px; */
-  width: 100%;
-  color: aliceblue;
-  padding-left: 5px;
-}
 
-nav ul{
-  list-style: none;
-}
-
-nav ul li{
-  display: inline-block;
-  margin-right: 10px;
-  color: aliceblue;
-}
