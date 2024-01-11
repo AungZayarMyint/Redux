@@ -1,10 +1,9 @@
-import Todo from "./components/Todo";
 
 function App() {
 
   return (
     <>
-      <Todo/>
+      <h1>react </h1>
     </>
   );
 }
